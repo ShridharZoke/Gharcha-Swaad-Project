@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="icon.jpg">
+ <title>Gharcha Swaad</title>
+    <link rel="stylesheet" href="Foodweb.css">
+    <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Catamaran:wght@200&family=Courgette&family=Edu+TAS+Beginner:wght@700&family=Lato:wght@300;900&family=Mukta:wght@700&family=Mulish:wght@300&family=Open+Sans&family=PT+Sans:ital,wght@1,700&family=Poppins:wght@300&family=Raleway:wght@100&family=Roboto&family=Roboto+Condensed:wght@700&family=Roboto+Slab&display=swap"rel="stylesheet">
+    <script src="https://kit.fontawesome.com/f30fac2c61.js" crossorigin="anonymous"></script>
+
+</head>
+<body>
+    <div class="container">
+        <nav>
+            <div class="logo">
+                <img src="icon.jpg" alt="icon">
+            </div>
+            <div class="input">
+                <input type="text" value="" id="inp" placeholder="Search Here ..." onkeyup="myFun()">
+                <i class="fa-solid fa-magnifying-glass"></i>
+            </div>
+            <div class="icon">
+                <i onclick="login()" class="fa-solid fa-user"></i>
+                <i class="fa-solid fa-cart-shopping"></i>
+                <i onclick="nav()" class="fa-solid fa-bars"></i>
+            </div>
+        </nav>
+
+
+        <div class="login">
+            <h2>Log In </h2>
+            <input type="text" placeholder="Enter Your Name">
+            <input type="password" placeholder="Enter Password"> <br>
+            <button>Log In</button>
+
+        </div>
+        <div class="nav">
+            <p>Home</p>
+            <p>Foods</p>
+            <p>Blog</p>
+            <p>Customer</p>
+
+
+        </div>
+
+        <!-- main Page -->
+
+        <div class="main">
+            <div class="text">
+                <h2>Simple & Tasty Recipes</h2>
+                <h1><b><u><i>GHARCHA <br> SWAAD</i></u></b></h1>
+                <p>The Taste Of Real Home.</p>
+                <button>Explore More</button>
+            </div>
+            <img src="Home.jpg" alt="Home">
+        </div>
+
+        <!--  Card Food -->
+
+        <table>
+            <tr>
+                <td>
+                    <div class="head">
+                        <h1>Our <span>Foods</span></h1>
+                    </div>
+                    <div class="crd">
+                        <div class="card">
+                            <img src="Maharastrian Thali.jpg" alt="Maharashtrian Thali">
+                            <h2>299 Rupees Only</h2>
+                            <p>Maharashtrian Thali consists of traditionally prepared dishes from the state of Maharashtra. A typical Vegetarian Menu features koshimbir, Aamti or varan, Roti made with different flours, Vegetables, Lentils, Pickles and other condiments, Drinks and sweets.</p> <br>
+                            <button>Order Now</button> 
+                            <button>Follow</button> 
+                        </div>
+                        <div class="card">
+                            <img src="South india veg Thali.jpg" alt="South india veg Thali">
+                            <h2>299 Rupees Only</h2>
+                            <p>south indian thali recipe | veg south indian lunch menu ideas with detailed photo and video recipe. an indian style of lunch or dinner meal, served with a selection of recipes or dishes arranged in plate or thali. in other words, it is a combination of different tastes and flavours organised and served in a single platter.</p>
+                            <button>Order Now</button>
+                            <button>Follow</button>
+                        </div>
+                        <div class="card">
+                            <img src="Panjabi veg Thali.jpg" alt="Panjabi veg Thali">
+                            <h2>299 Rupees Only</h2>
+                            <p>The state of Punjab to showcase another delicious, rich, lip-smacking thali.  Like Punjabi’s full of life, the Vegetarian Punjabi thali has a range of rich buttery and milk-based colourful and yummy dishes.</p> <br><br>
+                            <button>Order Now</button>
+                            <button>Follow</button>
+                        </div>
+                    </div>
+
+                    <div class="crd">
+                        <div class="card">
+                            <img src="Maharastrian non-veg  Thali.jpg" alt="Maharashtrian non-veg Thali">
+                            <h2>299 Rupees Only</h2>
+                            <p>The Thali includes the speciality of the day, and the fish served varies everyday based on the catch of the day. It also includes rice, curry, chapatis, papad, pickle, and sol kadhi. This Maharashtrian thali is wholesome, hearty, and fulfilling.</p> <br> <br> <br>
+                            <button>Order Now</button>
+                            <button>Follow</button>
+                        </div>
+                        <div class="card">
+                            <img src="South india non-veg Thali.jpg" alt="south india non-veg Thali">
+                            <h2>299 Rupees Only</h2>
+                            <p>Chicken Thali will typically have a rice biryani featuring chicken, with a gravy dish with chicken, some starters, raita. Dal, Rasam, Steamed Rice along with Curds are also prepared. </p><br> <br> <br> <br>
+                            <button>Order Now</button>
+                            <button>Follow</button>
+                        </div>
+                        <div class="card">
+                            <img src="Panjabi Non-veg Thali.jpg" alt="Panjabi Non-veg Thali">
+                            <h2>299 Rupees Only</h2>
+                            <p>In this mouthwatering Punjabi Thali recipe, we bring you a delightful feast that's packed with traditional dishes to satisfy your cravings. From the aromatic Punjabi Kadhi Pakora to the flavorful Matar Paneer Pulav, the delectable Aloo Capsicum Ki Sabzi, and the irresistible Masale Wala Paneer, this Punjabi Thali is a treat for your taste buds.</p>
+                            <button>Order Now</button>
+                            <button>Follow</button>
+                        </div>
+                    </div>
+                </td>
+
+
+            </tr>
+
+            <tr>
+                <td>
+                    <div class="head">
+                        <h1>Our <span>Blogs</span></h1>
+                    </div>
+                    <div class="crd">
+                        <div class="blog">
+                            <img src="Explore1.jpg" alt="Explore1">
+                            <h2>Fact About Maharashtrian Food</h2>
+                            <p>Get the latest and new vegetarian recipes together with recently updated existing recipes.</p>
+                            <a href="https://www.vegrecipesofindia.com">Read More</a>
+                        </div>
+                        <div class="blog">
+                            <img src="Explore2.jpg" alt="Explore2">
+                            <h2>Fact About South Indian Food</h2>
+                            <p>South Indian cuisine is renowned for its rich flavors, vibrant colors, and diverse range of dishes.</p>
+                            <a href="https://www.southindianfoods.in">Read More</a>
+                        </div>
+                        <div class="blog">
+                            <img src="Explore3.jpg" alt="Explore3">
+                            <h2>Fact About Panjabi Food</h2>
+                            <p>Just Panjabi Food <br> Authentic north indian euisine. <br> Cooked with passion , served with  love.</p> <br> 
+                            <a href="https://justpunjabifoods.com">Read More</a>
+                        </div>
+                    </div>
+                </td>
+            </tr>
+        </table>
+
+        <!-- Customer Review -->
+
+
+        <div class="head">
+            <h1>Customer <span>Review</span></h1>
+        </div>
+        <div class="review">
+
+            <div class="customer">
+                <img src="men (1).jpg" alt="men (1)"> <br>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-regular fa-star-half-stroke"></i>
+                <p>Fantastic food! It was very fresh and flavorful. We could tell it was just made for us. A little slow, but worth the wait. Yum!</p>
+                
+            </div>
+            <div class="customer">
+                <img src="men (2).jpg" alt="men (2)"> <br>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-regular fa-star-half-stroke"></i>
+                <p>Awesome food , best service and beautiful place!! One of the best Indian restaurant in town!! Go for it!!</p>
+                
+            </div>
+        </div>
+        <div class="btn">
+            <button onclick="pre()">Prev</button>
+            <button onclick="next()">Next</button>
+
+        </div>
+
+        <div class="footer">
+            <div class="txt">
+                <h2>About US</h2>
+                <p>"There is only one boss: <br> the customer"</p>
+                <p>Service</p>
+                <p>Customer</p>
+                <p>Foods</p>
+
+            </div>
+            <div class="txt">
+                <h2>About US</h2>
+                <p>Product</p>
+                <p>Service</p>
+                <p>Customer</p>
+                <p>Foods</p>
+
+            </div>
+            <div class="txt">
+                <h2>About US</h2>
+                <p>Near</p>
+                <p>Service</p>
+                <p>Customer</p>
+                <p>Foods</p>
+
+            </div>
+            <div class="txt">
+                <h2>About US</h2>
+                <p>Websites</p>
+                <p>Service</p>
+                <p>Customer</p>
+                <p>Foods</p>
+
+            </div>
+        </div>
+    </div>
+    <script src="Foodweb.js"></script>
+</body>
+</html>
